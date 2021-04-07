@@ -6,7 +6,7 @@
 	var imagenes36=Array("Media/Numeros/carta36.png","Media/36.jpg");
 	var imagenVisible36=0;
  
-	var ingles = document.getElementById("ingles");
+	var carta = document.getElementById("carta");
 	// Función que cambia la imagen actual por la siguiente
 	function cambiar36(img)
 	{
@@ -18,7 +18,7 @@
 		img.src=imagenes36[imagenVisible36];
 		cargarSiguienteImagen36();
 
-		ingles.play();
+		carta.play();
 	}
  
 	/**

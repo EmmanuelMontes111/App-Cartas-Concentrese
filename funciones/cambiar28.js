@@ -6,7 +6,7 @@
 	var imagenes28=Array("Media/Numeros/carta28.png","Media/28.jpg");
 	var imagenVisible28=0;
  
-	var ohNou = document.getElementById("ohNou");
+	var carta = document.getElementById("carta");
 	// Función que cambia la imagen actual por la siguiente
 	function cambiar28(img)
 	{
@@ -18,7 +18,7 @@
 		img.src=imagenes28[imagenVisible28];
 		cargarSiguienteImagen28();
 
-		ohNou.play();
+		carta.play();
 	}
  
 	/**

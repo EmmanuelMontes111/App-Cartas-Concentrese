@@ -6,7 +6,7 @@
 	var imagenes7=Array("Media/Numeros/carta7.png","Media/7.jpg");
 	var imagenVisible7=0;
 
-	var nelson = document.getElementById("nelson");
+	var carta = document.getElementById("carta");
 	// Función que cambia la imagen actual por la siguiente
 	function cambiar7(img)
 	{
@@ -18,7 +18,7 @@
 		img.src=imagenes7[imagenVisible7];
 		cargarSiguienteImagen7();
 
-		nelson.play();
+		carta.play();
 	}
  
 	/**

@@ -6,7 +6,7 @@
 	var imagenes30=Array("Media/Numeros/carta30.png","Media/30.jpg");
 	var imagenVisible30=0;
  
-	var bazinga = document.getElementById("bazinga");
+	var carta = document.getElementById("carta");
 	// Función que cambia la imagen actual por la siguiente
 	function cambiar30(img)
 	{
@@ -18,7 +18,7 @@
 		img.src=imagenes30[imagenVisible30];
 		cargarSiguienteImagen30();
 
-		bazinga.play(); 
+		carta.play(); 
 	}
  
 	/**

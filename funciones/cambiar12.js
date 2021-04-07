@@ -6,7 +6,7 @@
 	var imagenes12=Array("Media/Numeros/carta12.png","Media/12.jpg");
 	var imagenVisible12=0;
  
-	var ingles = document.getElementById("ingles");
+	var nanana = document.getElementById("nanana");
 	// Función que cambia la imagen actual por la siguiente
 	function cambiar12(img)
 	{
@@ -18,7 +18,7 @@
 		img.src=imagenes12[imagenVisible12];
 		cargarSiguienteImagen12();
 
-		ingles.play(); 
+		nanana.play(); 
 	}
  
 	/**

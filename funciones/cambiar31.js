@@ -6,7 +6,7 @@
 	var imagenes31=Array("Media/Numeros/carta31.png","Media/31.jpg");
 	var imagenVisible31=0;
  
-	var carta = document.getElementById("carta");
+	var bobEsponja = document.getElementById("bobEsponja");
 	// Función que cambia la imagen actual por la siguiente
 	function cambiar31(img)
 	{
@@ -18,7 +18,7 @@
 		img.src=imagenes31[imagenVisible31];
 		cargarSiguienteImagen31();
 
-		carta.play();
+		bobEsponja.play();
 	}
  
 	/**
